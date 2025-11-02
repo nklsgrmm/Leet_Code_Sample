@@ -2,15 +2,13 @@
 #include "two_sum_map.h"
 
 
-
-// Solving the two sum example:
-
 int main() {
 
     Solution_map  solution_map1 ;
     Solution_simple solution_simple1;
     vector<int> v1 = {3,2,4};
     int target = 6;
+
     //Hello World
     vector<int> result;
 
@@ -19,5 +17,4 @@ int main() {
 
     result = solution_simple1.twoSum(v1, target);
     cout << result[0]  <<"\t" << result[1] << endl;
-
 }
