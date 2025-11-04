@@ -4,17 +4,16 @@
 
 int main() {
 
-    Solution_map  solution_map1 ;
-    Solution_simple solution_simple1;
+    Solution_TwoSum  solution_TwoSum ;
     vector<int> v1 = {3,2,4};
     int target = 6;
 
     //Hello World
     vector<int> result;
 
-    result = solution_map1.twoSum(v1, target);
+    result = solution_TwoSum.twoSum_map(v1, target);
     cout << result[0]  <<"\t" << result[1] << endl;
 
-    result = solution_simple1.twoSum(v1, target);
+    result = solution_TwoSum.twoSum_simple(v1, target);
     cout << result[0]  <<"\t" << result[1] << endl;
 }
